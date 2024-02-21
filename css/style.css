@@ -498,9 +498,10 @@
      .access {
          display: flex;
          white-space: nowrap;
-         gap: 90px;
+         gap: 50px;
      }
 
+     
  }
 
 
