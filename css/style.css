@@ -569,12 +569,7 @@
          border-bottom-color: blue;
      }
 
-     .search-barre {
-
-         display: flex;
-         justify-content: center;
-
-     }
+     
 
      .loupe {
         display: block;
@@ -598,14 +593,18 @@
          align-items: normal;
          gap: 0px;
          margin-top: 10px;
+         width: 100%;
+         justify-content: center;
      }
 
      .filtre div {
          display: flex;
-         width: 38%;
+         width: 45%;
          justify-content: center;
          height: 40px;
          font-size: 12px;
+         padding-left: 0;
+         padding-right: 0;
      }
 
 
