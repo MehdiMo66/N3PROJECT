@@ -98,14 +98,14 @@
      font-weight: bold;
      border: none;
      font-size: medium;
-
+     width:100px;
  }
 
 
  .input-recherche {
      border: 1px rgb(247, 240, 240) solid;
      font-size: medium;
-     width: 150px;
+     width: 180px;
      font-weight: bold;
      padding-left: 8px;
 
@@ -118,6 +118,7 @@
      color: rgb(0, 0, 0);
      font-weight: bold;
      font-size: medium;
+     padding-left: 15px;
  }
 
  input {
