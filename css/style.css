@@ -313,11 +313,6 @@
 
 
 
- .msg {
-     font-size: large;
-     margin-top: 50px;
-     margin-left: 10px;
- }
 
 
  /****** Populaires ***********/
@@ -373,9 +368,10 @@
  /*Activites*/
 
  .Activites h2 {
-     margin-top: 20px;
+    
     font-size: 22px;
-     padding-top: 20px;
+     margin-bottom: 30px;
+     margin-top: 30px;
  }
 
  .Activites {
@@ -387,17 +383,19 @@
      border-radius: 20px;
      overflow: hidden;
      filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-     height: 90%;
-
+     height: 439px;
+   
 
  }
 
  .Marseille a {
-     width: 50%;
- }
+    width: 50%;
+}
 
+
+ 
  .marseille-card img {
-     height: 85%;
+     height: 380px;
      display: flex;
      width: 100%;
      object-fit: cover;
@@ -413,8 +411,8 @@
  }
 
  .marseille-card h3 {
-     margin-left: 10px;
-     font-size: 13px
+     margin: 10px;
+     font-size: 16px
  }
 
  /* footer */
@@ -487,15 +485,18 @@
          font-size: 13px;
      }
 
-
+     .marseille-card h3 {
+        font-size: 16px;
+        
+     }
 
      .marseille-card img {
-         height: 80%;
+         height: 200px;
      }
 
      .marseille-card {
-         height: 70%;
-         padding-bottom: 15px;
+         height: 270px;
+         
      }
      .Activites {
         margin-bottom: 0px;
@@ -576,7 +577,9 @@
          border-bottom-color: blue;
      }
 
-     
+     .search-barre {
+        justify-content: center;
+     }
 
      .loupe {
         display: block;
