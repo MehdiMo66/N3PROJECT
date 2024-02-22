@@ -28,7 +28,7 @@
 
 
  /**** Header ****/
- .logos {
+ .logo {
      width: auto;
      height: 20px;
      padding-top: 10px;
@@ -85,11 +85,9 @@
      margin-top: -1%;
  }
 
- .loupe {
-     display: none;
- }
+ /***Barre de recherche***/
 
- form .submit {
+ .submit {
 
      background: #0065FC;
      color: #fbfcfd;
@@ -99,9 +97,10 @@
      border: none;
      font-size: medium;
      width:100px;
+     cursor: pointer;
  }
 
- form .loupe {
+ .loupe {
     background:  #0065FC;
     color: #fbfcfd;
     border-top-right-radius: 15px;
@@ -109,7 +108,8 @@
     font-weight: bold;
     border: none;
     font-size: medium;
-   
+   cursor: pointer;
+   display: none;
  }
 
  .input-recherche {
@@ -149,9 +149,11 @@
      background-color: rgb(247, 240, 240);
      width : 50px ;
      border: none;
-     
+     cursor: pointer;
  }
- 
+
+ /***Filtres***/
+
  .Filtres {
      display: flex;
      flex-direction: row;
@@ -160,7 +162,7 @@
  }
 
 
- .Filtres h3 {
+ .Filtres h2 {
      font-size: 18px;
  }
 
@@ -203,7 +205,6 @@
     color: #0065FC;
     
 }
-
 
  a {
      color: inherit;
@@ -271,12 +272,13 @@
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: space-between;
+     
  }
 
 
 
  .Hebergement-Card img {
-     height: 120px;
+     height: 60%;
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
 
@@ -286,20 +288,18 @@
      
      display: flex;
      flex-direction: column;
-    margin-top: 30px;
+     margin-top: 30px;
+     height: 200px;
     }
     
-    
-    
- 
 
  .Hebergement-Card a {
      width: 30%;
  }
 
  .Hebergement-Card .card-content {
-     height: 80px;
-     margin-left: 5px;
+     height: 40%;
+     margin: 5px;
      
  }
 
@@ -382,19 +382,20 @@
     padding:30px;
  }
 
+ .Marseille a {
+    width: 50%;
+}
+
  .marseille-card {
      background-color: white;
      border-radius: 20px;
      overflow: hidden;
      filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
      height: 439px;
-   
 
  }
 
- .Marseille a {
-    width: 50%;
-}
+ 
 
 
  
@@ -429,7 +430,7 @@
      display: flex;
      flex-direction: row;
      gap: 200px;
-     
+     margin-top: 25px;
 
  }
 
@@ -537,11 +538,6 @@
      }
 
 
-     .filtre-recherche {
-         padding: 15px;
-     }
-
-
      .blocs {
          display: flex;
          flex-direction: column;
@@ -549,19 +545,16 @@
 
      }
 
+     .logo {
 
+        height: 20px;  
+        margin-top: 10px;
+        margin-bottom: 5px;
 
-     .logos {
-
-         height: 20px;
-         
-         margin-bottom: 10px;
-         padding: 20px;
-
-     }
+    }
 
      nav {
-         margin: 0;
+         margin-top: 20px;
          width: 100%;
          gap: 0px;
 
@@ -581,6 +574,22 @@
          border-bottom-color: blue;
      }
 
+    .filre-recherche {
+        margin: 5px;
+    }
+
+    .submit {
+        display: none;
+    }
+
+    .loupe i {
+        color: #f7f8f9;
+    }
+
+     .input-recherche {
+         width: 80%;
+     }
+
      .search-barre {
         justify-content: center;
      }
@@ -590,18 +599,6 @@
         border-radius: 15px;
         margin-left: -10px;
         padding:15px;
-     }
-
-     .loupe i {
-        color: #f7f8f9;
-    }
-
-     .input-recherche {
-         width: 80%;
-     }
-
-     .submit {
-         display: none;
      }
 
      .Filtres {
@@ -666,24 +663,18 @@
      }
 
      .populaires {
-         margin-top: 0px;
-         
-     }
-     .populaires-cards {
-        flex-direction: column;
-     }
-     
-     
-     
-     .populaires-cards a {
-        width: 100%;
+        margin-top: 0px;
+        
     }
-     
-     
-     .msg {
-         margin-top: 10px;
-     }
-
+    .populaires-cards {
+       flex-direction: column;
+    }
+    
+    .populaires-cards a {
+       width: 100%;
+   }
+    
+   
      .Activites {
         margin: 7px;
         padding-top:0px
