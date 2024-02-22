@@ -59,7 +59,7 @@
 
  nav :hover {
      color: #76a2e4;
-     border-top-color: blue;
+     border-top-color: #0065FC;
     
  }
 
@@ -89,7 +89,7 @@
      display: none;
  }
 
- form button {
+ form .submit {
 
      background: #0065FC;
      color: #fbfcfd;
@@ -101,6 +101,16 @@
      width:100px;
  }
 
+ form .loupe {
+    background:  #0065FC;
+    color: #fbfcfd;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+    border: none;
+    font-size: medium;
+   
+ }
 
  .input-recherche {
      border: 1px rgb(247, 240, 240) solid;
@@ -133,13 +143,15 @@
 
  }
 
- input#image {
+ form .location {
      border-top-left-radius: 15px;
      border-bottom-left-radius: 15px;
      background-color: rgb(247, 240, 240);
-     padding: 15px;
+     width : 50px ;
+     border: none;
+     
  }
-
+ 
  .Filtres {
      display: flex;
      flex-direction: row;
@@ -179,26 +191,18 @@
  }
 
 
- .filtre div img {
-
-     width: auto;
-     height: 17px;
-
- }
-
  .information {
      display: flex;
-     gap: 10px;
      margin-top: 10px;
-     margin-bottom: 10px;
-
+     margin-bottom: 12px;
+     align-items: center;
+     gap:7px;
  }
 
- .information img {
-     height: 20px;
-     width: auto;
-     margin-top: 14px;
- }
+ .information i {
+    color: #0065FC;
+    
+}
 
 
  a {
@@ -370,18 +374,19 @@
 
  .Activites h2 {
      margin-top: 20px;
-
+    font-size: 22px;
      padding-top: 20px;
  }
 
-
+ .Activites {
+    padding:30px;
+ }
 
  .marseille-card {
      background-color: white;
      border-radius: 20px;
      overflow: hidden;
      filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-     
      height: 90%;
 
 
@@ -409,7 +414,7 @@
 
  .marseille-card h3 {
      margin-left: 10px;
-     font-size: 15px
+     font-size: 13px
  }
 
  /* footer */
@@ -526,6 +531,7 @@
          margin: 0px;
      }
 
+
      .filtre-recherche {
          padding: 15px;
      }
@@ -542,8 +548,8 @@
 
      .logos {
 
-         height: 25px;
-         width: 80px;
+         height: 20px;
+         
          margin-bottom: 10px;
          padding: 20px;
 
@@ -579,9 +585,12 @@
         padding:15px;
      }
 
+     .loupe i {
+        color: #f7f8f9;
+    }
 
      .input-recherche {
-         width: 200px;
+         width: 80%;
      }
 
      .submit {
@@ -614,7 +623,7 @@
          flex-direction: row;
          flex-wrap: wrap;
          gap: 5px;
-
+         justify-content: center;
      }
 
 
@@ -622,7 +631,7 @@
          margin-bottom: 10px;
      }
 
-
+      
 
      .hebergements-and-populaires {
          flex-direction: column-reverse;
@@ -632,6 +641,7 @@
 
      .hebergements-and-populaires section {
          border-radius: 0px;
+         padding: 22px;
      }
 
 
@@ -668,18 +678,13 @@
      }
 
      .Activites {
-         padding: 30px;
-         padding-top: 0px;
-         
-     }
-
-     .Activites h2 {
-         margin-left: 10px;
+        margin: 7px;
+        padding-top:0px
      }
 
      .Marseille {
          flex-direction: column;
-         margin: 10px;
+         
      }
 
      .Marseille a {
@@ -706,6 +711,6 @@
          margin-top: 0%;
      }
 
-
+    
 
  }
