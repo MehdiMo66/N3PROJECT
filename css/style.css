@@ -203,7 +203,12 @@
 
  .information i {
     color: #0065FC;
-    
+    border-radius: 50%;
+    border: 1px  #F2F2F2 solid;
+    padding: 3px;
+    font-size: 10px;
+    text-align: center;
+    width: 10px;
 }
 
  a {
@@ -491,7 +496,7 @@
      }
 
      .marseille-card h3 {
-        font-size: 16px;
+        font-size: 14px;
         
      }
 
@@ -574,8 +579,8 @@
          border-bottom-color: blue;
      }
 
-    .filre-recherche {
-        margin: 5px;
+    .filtre-recherche {
+        margin: 15px;
     }
 
     .submit {
