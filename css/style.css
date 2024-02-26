@@ -34,7 +34,7 @@
      padding-top: 10px;
  }
 
- .blocs {
+ header {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
@@ -538,7 +538,7 @@
      }
 
 
-     .blocs {
+     header {
          display: flex;
          flex-direction: column;
          align-items: center;
