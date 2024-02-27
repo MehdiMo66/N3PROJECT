@@ -63,10 +63,17 @@
 
  /***Main***/
 
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
+
+
 
  main h1 {
      font-size: 20px;
      margin-top: 50px;
+     margin-bottom: 5px;
  }
 
  a :hover {
@@ -76,9 +83,6 @@
  }
 
 
- .p1 {
-     margin-top: -1%;
- }
 
  /***Barre de recherche***/
 
@@ -154,6 +158,7 @@
      flex-direction: row;
      gap: 15px;
      margin-top: 30px;
+
  }
 
 
@@ -167,7 +172,9 @@
      flex-direction: row;
      align-items: center;
      gap: 10px;
-     font-weight: bold
+     font-weight: bold;
+     white-space: nowrap;
+
  }
 
  .filtre a {
@@ -180,22 +187,22 @@
      padding-right: 12px;
      height: 40px;
      align-items: center;
-     font-size: 17px;
+     font-size: 15px;
      text-decoration: none;
  }
 
  .filtre :hover {
      background-color: #DEEBFF;
  }
- 
+
  .filtre a :hover {
-   color: black;
+     color: black;
  }
 
  .information {
      display: flex;
-     margin-top: 10px;
-     margin-bottom: 12px;
+     margin-top: 21px;
+     margin-bottom: 28px;
      align-items: center;
      gap: 7px;
  }
@@ -208,12 +215,9 @@
      font-size: 10px;
      text-align: center;
      width: 10px;
+
  }
 
- a {
-     color: inherit;
-     text-decoration: none;
- }
 
  .section-title {
      margin: 0;
@@ -433,8 +437,9 @@
  }
 
 
- .a-propos h3 {
-     list-style-type: none;
+ .footer_div h3 {
+
+     font-size: 17px;
  }
 
  ul {
@@ -489,7 +494,7 @@
      }
 
      .marseille-card h3 {
-         font-size: 14px;
+         font-size: 13px;
 
      }
 
